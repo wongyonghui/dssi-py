@@ -1,12 +1,5 @@
 import streamlit as st
 import numpy as np
-
-# Install scikit-learn
-st.write('Installing scikit-learn...')
-import subprocess
-subprocess.check_call(['pip', 'install', 'scikit-learn'])
-
-# Now import LinearRegression from sklearn
 from sklearn.linear_model import LinearRegression
 
 # Generate some example data
